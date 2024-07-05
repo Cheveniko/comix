@@ -26,9 +26,9 @@
             if ($free_query->have_posts()) :
                 while ($free_query->have_posts()) : $free_query->the_post();
             ?>
-                    <div class="col-span-3 space-y-4">
+                    <div class="col-span-12 md:col-span-3 space-y-4">
                         <a href="<?php the_permalink(); ?>">
-                            <img src="<?php the_field('post_banner'); ?>" class="rounded-lg" />
+                            <img src="<?php the_field('post_banner'); ?>" class="rounded-lg mx-auto" />
                         </a>
                         <div>
                             <a href="<?php the_permalink(); ?>" class="text-lg text-comix-primary"><?php echo wp_trim_words(get_the_title(), 10); ?></a>
