@@ -11,7 +11,12 @@
                 Our Blog
             </h1>
             <p class="hidden md:block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus magna, pharetra ut libero non.
+                Dive into the captivating world of comics through the insights of our experts and enthusiasts. Here you will find:
+                find:
+            <ul>
+                <li><strong>In-Depth Reviews:</strong> Detailed analyses of the latest releases and unforgettable classics.
+                <li><strong>News and Updates:</strong> Stay informed with the latest news from the comic universe.
+            </ul>
             </p>
             <a
                 href="<?php echo get_home_url(); ?>/comics"

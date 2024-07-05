@@ -11,7 +11,7 @@
                 Our Comics
             </h1>
             <p class="hidden md:block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus magna, pharetra ut libero non.
+                Explore the wonderful universe of comics with us. From the most iconic superheroes to indie gems, our catalog has something for everyone. Discover the latest releases, enjoy exclusive reviews, and immerse yourself in exciting adventures.
             </p>
             <a
                 href="<?php echo get_home_url(); ?>/comics"

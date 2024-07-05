@@ -7,7 +7,7 @@
     </section>
 
     <section>
-        <img src="<?php the_field('post_banner'); ?>" class="w-full" />
+        <img src="<?php the_field('post_banner'); ?>" class="mx-auto" />
     </section>
     <section>
         <?php the_content(); ?>

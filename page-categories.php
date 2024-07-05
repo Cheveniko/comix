@@ -2,7 +2,7 @@
 <main class="container space-y-8 pt-[96px]">
     <section class="mt-8 space-y-2">
         <h1 class="font-bold text-center text-5xl">Categories</h1>
-        <h2 class="text-[#828282] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <h2 class="text-[#828282] text-center">Immerse yourself in the diverse categories we have in our catalog.</h2>
     </section>
     <section>
         <div class="grid grid-cols-12 justify-between items-center gap-8">

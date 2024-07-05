@@ -11,7 +11,7 @@
                 Featured this week
             </h1>
             <p class="hidden md:block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus magna, pharetra ut libero non.
+                This week has been filled with exciting adventures, unexpected twists, and epic heroes. From the latest showdown of our favorite superheroes to the most anticipated releases, we have everything covered. Don't miss our summary of the best of the week.
             </p>
             <a
                 href="<?php echo get_home_url(); ?>/comics"
