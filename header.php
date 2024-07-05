@@ -17,7 +17,7 @@
             <a href="<?php echo get_home_url(); ?>" class="text-white font-bold text-2xl">
                 Comix
             </a>
-            <div class="flex text-white gap-x-8 justify-center font-semibold items-center">
+            <div class="flex text-white gap-x-4 md:gap-x-8 justify-center font-semibold items-center">
                 <a href="<?php echo get_home_url(); ?>/comics" class="">Comics</a>
                 <a href="<?php echo get_home_url(); ?>/categories" class="">Categories</a>
                 <a href="<?php echo get_home_url(); ?>/blog" class="">Blog</a>

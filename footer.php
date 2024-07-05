@@ -1,6 +1,6 @@
 <footer class="border-t mt-4 border-[#E6E6E6] py-4">
-    <div class="container grid grid-cols-8 justify-between items-center">
-        <div class="space-y-2 justify-self-start col-span-2">
+    <div class="container grid grid-cols-8 gap-y-4 justify-between items-center">
+        <div class="space-y-2 justify-self-center md:justify-self-start md:col-span-2 col-span-8">
             <p class="text-center text-lg">Follow Us</p>
             <div class="flex justify-between items-center gap-x-4">
                 <a href="https://tiktok.com">
@@ -28,11 +28,11 @@
                 </a>
             </div>
         </div>
-        <div class="text-center col-span-4">
+        <div class="text-center md:col-span-4 col-span-8">
             <h3 class="font-bold text-3xl">comix</h3>
             <p>Copyright</p>
         </div>
-        <div class="space-y-4 col-span-2">
+        <div class="space-y-4 md:col-span-2 col-span-8">
             <p class="text-center">Contact Us</p>
             <a href="https://wa.me/593987654321" class="flex items-center w-fit mx-auto text-[#454545] gap-x-4">
                 <svg height="21" width="21" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308 308" class="fill-[#454545]">

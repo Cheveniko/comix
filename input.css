@@ -225,6 +225,7 @@ textarea {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+  width: 100%;
 }
 
 .woocommerce-product-gallery__image {
@@ -268,6 +269,7 @@ div.product {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .wc-tab > h2 {
   display: none !important;
 }
@@ -280,7 +282,7 @@ li.product {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 23%;
+  min-width: 23%;
 }
 
 .woocommerce-loop-product__link > h2,

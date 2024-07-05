@@ -7,15 +7,15 @@
             alt="Banner evento" />
         <div class="absolute top-[15%] space-y-4 bottom-[15%] left-[5%] right-[5%] z-20 max-w-[400px]">
             <h1
-                class="font-bold text-3xl">
+                class="font-bold text-lg md:text-3xl">
                 Our Blog
             </h1>
-            <p class="">
+            <p class="hidden md:block">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi purus magna, pharetra ut libero non.
             </p>
             <a
                 href="<?php echo get_home_url(); ?>/comics"
-                class="bg-white rounded-lg block w-fit px-4 py-2 shadow-lg text-comix-primary">
+                class="bg-white rounded-lg block w-fit md:px-4 md:py-2 p-2 shadow-lg text-comix-primary">
                 Read Now!
             </a>
         </div>
@@ -35,7 +35,7 @@
             if ($free_query->have_posts()) :
                 while ($free_query->have_posts()) : $free_query->the_post();
             ?>
-                    <div class="col-span-4 space-y-4">
+                    <div class="col-span-12 md:col-span-4 space-y-4">
                         <a href="<?php the_permalink(); ?>">
                             <img src="<?php the_field('post_banner'); ?>" class="rounded-lg" />
                         </a>
